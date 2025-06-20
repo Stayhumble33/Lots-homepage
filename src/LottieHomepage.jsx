@@ -1,4 +1,4 @@
-import React from "react";
+\import React from "react";
 
 export default function LottieHomepage() {
   return (
@@ -8,7 +8,7 @@ export default function LottieHomepage() {
         <img
           src="/lottie-hero.jpg"
           alt="Lottie Grant Cooper hero background"
-          className="absolute w-full h-full object-cover opacity-30 z-0"
+          className="absolute inset-0 w-full h-full object-cover object-top md:object-center opacity-30 z-0"
         />
         <div className="relative z-10 text-center px-6 max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-light leading-tight">
@@ -35,7 +35,7 @@ export default function LottieHomepage() {
 
       {/* Founder Bio */}
       <section className="py-20 px-6 bg-black text-gray-100 text-center">
-        <img src="/lottie-portrait.jpg" alt="Lottie Cooper" className="mx-auto rounded-full w-40 h-40 object-cover mb-6 border-4 border-gold" />
+        <img src="/lottie-portrait.jpg" alt="Lottie Cooper" className="mx-auto rounded-full w-32 h-32 md:w-40 md:h-40 object-cover mb-6 border-4 border-gold" />
         <h3 className="text-2xl md:text-4xl font-light mb-2">Lottie Grant Cooper</h3>
         <p className="text-md md:text-lg text-gray-400 max-w-xl mx-auto">
           Visionary, activator, and sacred architect for soul-led leaders. Lottie helps high-frequency beings transcend patterns, reclaim their gifts, and lead legacies of light.
